@@ -14,36 +14,63 @@ html
 body
 {
 	font-size: 1.5em;
-	width: 60%;
-	margin: auto;
+	width: 100%;
+	
+	font-family: Roboto;
 }
 h1
 {
 	font-size: 2em;
 	text-transform: uppercase;
 	text-align: center;
+	margin: 0;
+	padding: 6%;
 }
-h3
-{
-	text-align: center;
-}
+
 .container
 {
-	width: 85%;
-	margin: 0 auto;
+	width: 100%;
+	background-color: white;
 }
 img, video
 {
 	max-width: 100%;
 }
-article:first-child img
+section:first-child
 {
-	display: block;
-	margin: 0 auto;
-	margin: 5% auto;
-	width: 30%;
-	height: 50%; 
+	margin-left: 6%;
+	margin-bottom: 4%;
 }
+section:first-child h3
+{
+	margin: 0;
+}
+section:first-child  article
+{
+	padding: 3%;
+	background-color: #bab8b8;
+}
+#pict
+{
+	float: left; 
+	margin-top: -7%;
+	margin-left: -7%;
+	width: 30%; 
+	height: 50%;  
+	margin-right: 3%;
+}
+.justify
+{
+	text-align: justify;
+	margin-right: 3%;
+	margin-top: 0;
+}
+.detail
+{
+	margin: 0;
+	text-align: left;
+}
+
 
 .iframe-container {
   overflow: hidden;
@@ -57,7 +84,8 @@ article:first-child img
    left: 0;
    position: absolute;
    top: 0;
-   width: 100%;
+   width: 95%;
+   margin-left: 2.5%;
 }
 
 /* 4x3 Aspect Ratio */
@@ -69,10 +97,7 @@ article:first-child img
 	clear: both;
 
 }
-article:last-of-type
-{
-	text-align: center;
-}
+
 
 .fab
 {
@@ -82,6 +107,11 @@ article:last-of-type
 	color: white;
 	padding: 2.5%;
 }
+.icons
+{
+	margin: 6% auto;
+	text-align: center;
+}
 .icons a
 {
 	margin: 0 auto;
@@ -90,28 +120,26 @@ article:last-of-type
 .icons img
 {
 	text-align: center;
-	width: 13.5%;
+	width: 12.5%;
 	color: silver;
-	display: inline-block;
+	
 }
 .icons a:first-child img
 {
-	width: 14%;
+	width: 13%;
 	margin: 0;
 }
 
 
-
-
 .calendar {
 	font-family: Arial, sans-serif;
-	margin-bottom: 100px;
+	margin-bottom: 30px;
 }
 
 .info-ciné {
 	display: inline-block;
 	width: 100%;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 
 
@@ -127,7 +155,10 @@ article:last-of-type
     vertical-align: top;
     margin: 0;
 }
- 
+.bas
+{
+	margin: 0 2%;
+} 
 .address-cine {
 	display: inline-block;
 	width: 75%;
@@ -151,7 +182,6 @@ article:last-of-type
 .hour-info p {
 	margin-left: 6%;
 	font-weight: bold;
-  font-size: 0.8em;
 }
 
 .days li.blue {
@@ -174,7 +204,7 @@ article:last-of-type
 
 .days li {
 	display: inline-block;
-	width: 13%;
+	width: 13.5%;
 	list-style: none;
 	text-align: center;
 	padding: 1%;
@@ -213,17 +243,16 @@ li.sold {
 	color: #0080B1;
 }
 
-@media screen and (min-width: 550px)
+@media screen and (min-width: 750px)
 {
 	h1 {font-size: 3em;}
 	h3 {text-align: left;}
-	article:first-child img{float: left; margin: 0 auto; width: 100%, height: 100%;  margin-right: 3%;}
-	article:first-child p{text-align: left;}
-	body{font-size: 2em;}
+	body{font-size: 2.5em; margin: auto; width: 70%;}
+	.container{width: 85%; margin: 0 auto; }
 
 }
 
 @media screen and (min-width: 1024px)
 {
-	body{font-size: 3.5em;}
+	body{font-size: 3em;}
 }
