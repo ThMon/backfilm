@@ -146,9 +146,9 @@ section:first-child  article
 
 .zip {
 	display: inline-block;
-	width: 9%;
+	width: 7%;
 	vertical-align: top;
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 
 .zip p{
@@ -208,6 +208,7 @@ section:first-child  article
 	list-style: none;
 	text-align: center;
 	padding: 1%;
+	cursor: pointer;
 }
 
 
