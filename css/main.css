@@ -27,6 +27,15 @@ h1
 	padding: 6%;
 }
 
+.hours a {
+	text-decoration: none !important;
+	color: #A1A5A7 !important;
+}
+
+.hide {
+	display: none !important;
+}
+
 .container
 {
 	width: 100%;

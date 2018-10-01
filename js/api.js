@@ -1,4 +1,25 @@
-
+/*function requestShowTimesInFrance() {
+	jQuery.ajax({
+    url: "https://api.internationalshowtimes.com/v4/showtimes?movie_id=46793&countries=FR&location=48.89,2.35&time_to=2018-12-31",
+    type: "GET",
+    data: {
+        "countries": "FR",
+    },
+    headers: {
+        "X-API-Key": "nce8u3Rq5yNq0jL9FjpmxZ8jWCzv9xvw",
+    },
+	})
+	.done(function(data, textStatus, jqXHR) {
+	    console.log("HTTP Request Succeeded: " + jqXHR.status);
+	    console.log(data);
+	})
+	.fail(function(jqXHR, textStatus, errorThrown) {
+	    console.log("HTTP Request Failed");
+	})
+	.always(function() {
+	    /* ... */
+	//});
+//}
 
 function allMovies() {
 
